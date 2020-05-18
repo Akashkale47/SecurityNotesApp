@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7A15"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/notepad"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To My Secure Note App"
+        android:layout_below="@id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_perfomby"
+        android:layout_below="@id/tv_tagline"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Perform by :- Akash kale (BE6F06F058)"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_perfomby"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Perform by :- Anand Videkar (BE6F06F057)"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "678054722213",
+    "firebase_url": "https://democlient-d72bf.firebaseio.com",
+    "project_id": "democlient-d72bf",
+    "storage_bucket": "democlient-d72bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678054722213:android:87c9b6b262b18d15226b4c",
+        "android_client_info": {
+          "package_name": "com.example.securitynotesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678054722213-r8sse39e31ehjd5sgo0jhk81e51nm526.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD000ig6dpcMVE6u2NurQXMJ9L_Kjy5rOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678054722213-r8sse39e31ehjd5sgo0jhk81e51nm526.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
